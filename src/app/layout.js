@@ -3,9 +3,8 @@ import "./globals.css";
 
 export const metadata = {
   title: "Gamefic",
-icons: {
-  // icon: "./favicon.ico", 
-  icon: "/logoGamefic.png", 
+icons: { 
+  icon: "/favicon.ico", 
   },
 };
 
