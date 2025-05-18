@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lobster&family=Sixtyfour+Convergence&family=Syncopate:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jersey+20&family=Lobster&family=Sixtyfour+Convergence&family=Syncopate:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.hero_body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #705CE1;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.navr {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+
+.input {
+    background-color: #705CE1;
+    border-radius: 16px;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 35px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    background-color: #705ce1;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 20px;
+    padding-right: 30px;
+    background-color: transparent;
+    outline: none;
+}
+
+input::placeholder {
+    color: #fff;
+    padding-left: 2px;
+}
+
+.search {
+    position: absolute;
+    top: 9px;
+    left: 260px;
+    /* pointer-events: none; */
+    opacity: 1;
+}
+
+
+.seletor_ling {
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23ffffff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #705ce1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-right: 15px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-size: 10px;
+    outline: none;
+}
+
+.seletor_ling::-ms-expand {
+    display: none;
+}
+
+.text-aprest {
+    width: 60vw;
+    font-size: 32px;
+    padding: 60px 10px 10px 90px
+}
+h2 {
+    font-family: 'Instrument Sans';
+}
+.text-logo{
+    font-size: 100px;
+    padding: 48px 10px 10px 222px
+}
+h1{
+    font-family: 'Jersey 20';
+    color: #FFD351;
+}
