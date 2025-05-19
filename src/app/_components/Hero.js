@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import '../_components/Hero.css'
+import '../_components/Hero_respns.css'
 
 export function Hero() {
     return (
@@ -8,11 +9,7 @@ export function Hero() {
                 <ul>
 
                     <li>
-                        <div style={{
-                            position: 'relative',
-                            width: '65px',
-                            height: '65px'
-                        }}>
+                        <div className='logo'>
                             <Image
                                 src="/logoGamefic.png"
                                 alt='Logo'
@@ -54,12 +51,12 @@ export function Hero() {
                                     Português BR
                                 </option>
 
-                                <option placeholder="en">
-                                    Englês
-                                </option>
-
                                 <option placeholder="es">
                                     Espanhol
+                                </option>
+
+                                <option placeholder="en">
+                                    Inglês
                                 </option>
 
                             </select>
@@ -70,30 +67,50 @@ export function Hero() {
             </nav>
 
             <div>
-                <div
-                    className='text-aprest'>
-                <h2>Aprender nunca foi tão divertido</h2>
+                <div className='text-aprest'>
+                    <h2>Aprender nunca foi tão divertido</h2>
+                </div>
+
+                <div className='text-logo'>
+                    <h1>GAMEFIC</h1>
+                </div>
+
+                <div className='mousePosition'>
+                    <Image
+                        src="/mouse.png"
+                        alt='Mouse'
+                        className='mouseImag'
+                        fill
+                    />
+                </div>
+
+                <main className='trioCriancas'>
+
+                    <div className='crianca1'>
+                        <Image
+                            src="/crianca1.png"
+                            alt='Crianças'
+                            fill
+                            />
+                    </div>
+
+                    <div className='crianca2'>
+                        <Image
+                            src="/crianca2.png"
+                            alt='Crianças'
+                            fill
+                            />
+                    </div>
+
+                    <div className='crianca3'>
+                        <Image
+                            src="/crianca3.png"
+                            alt='Crianças'
+                            fill
+                        />
+                    </div>
+                </main>
             </div>
-            <div className='text-logo'>
-                <h1>Gamefic</h1>
-            </div>
-            <div style={{ position: 'relative', width: '70px', height: '70px' }}>
-                <Image
-                    src="/mouse.png"
-                    alt='Mouse'
-                    style={{ objectFit: 'cover' }}
-                    fill
-                />
-            </div>
-            <div style={{ position: 'relative', width: '900px', height: '900px', }}>
-                <Image
-                    src="/criancas.png"
-                    alt='Crianças'
-                    style={{ objectFit: 'cover' }}
-                    fill
-                />
-            </div>
-        </div>
         </section >
     );
 };
