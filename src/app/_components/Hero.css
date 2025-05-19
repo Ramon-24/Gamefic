@@ -27,7 +27,8 @@ ul {
     margin: 0;
 }
 ul li {
-    margin-right: 10px;
+    margin-right: 50px;
+    /* gap: 10px; */
 }
 ul li:last-child {
     margin-right: 0;
@@ -36,8 +37,8 @@ ul li:last-child {
 /* Configurações da logo */
 .logo{
     position: relative;
-    width: 65px;
-    height: 65px;
+    width: 120px;
+    height: 120px;
 }
 
 /* Configurações da barra de pesquisa */
@@ -50,11 +51,11 @@ form {
     align-items: center;
 }
 .input {
-    height: 35px;
-    width: 300px;
+    height: 50px;
+    width: 600px;
     padding-left: 20px;
     padding-right: 30px;
-    border-radius: 16px;
+    border-radius: 36px;
     color: #fff;
     opacity: 0.9;
     border: 1px solid #fff;
@@ -64,11 +65,14 @@ form {
 input::placeholder {
     color: #fff;
     padding-left: 2px;
+    /* padding-top: 10px; */
+    font-size: 20px;
 }
 .search {
     position: absolute;
-    top: 9px;
-    left: 260px;
+    font-size: 23px;
+    top: 12px;
+    left: 560px;
     opacity: 1;
 }
 
@@ -80,7 +84,8 @@ input::placeholder {
     justify-content: space-around;
     padding: 0;
     margin: 0;
-    gap: 30px;
+    font-size: 25px;
+    gap: 160px;
 }
 
 /* Configurações do seletor de idiomas */
@@ -92,11 +97,13 @@ input::placeholder {
     color: white;
     border: none;
     border-radius: 5px;
-    padding-right: 15px;
+    padding-right: 20px;
     appearance: none;
+    font-size: 20px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-size: 10px;
+    background-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     outline: none;
 }
 .seletor_ling::-ms-expand {
@@ -105,16 +112,16 @@ input::placeholder {
 
 /* Configurações de texto */
 .text-aprest {
-    width: 60vw;
-    font-size: 32px;
-    padding: 60px 10px 10px 90px
+    width: 35vw;
+    font-size: 43px;
+    padding: 10px 10px 0px 90px
 }
 h2 {
     font-family: 'Instrument Sans';
 }
 .text-logo {
-    font-size: 100px;
-    padding: 48px 10px 10px 200px
+    font-size: 160px;
+    padding: 0px 10px 10px 530px
 }
 h1 {
     font-family: 'Jersey 20';
@@ -124,9 +131,9 @@ h1 {
 /* Conficurações do mouse */
 .mousePosition {
     position: relative;
-    width: 95px;
-    height: 95px;
-    margin: -75px 1px 1px 575px;
+    width: 120px;
+    height: 120px;
+    margin: -110px 1px 1px 1180px;
     animation: click 3s ease-in-out infinite;
     animation-delay: 2s;
 }
@@ -141,39 +148,38 @@ h1 {
     0% {
         transform: scale(1);
         opacity: 1;
-        margin-top: -40px;
-        margin-left: 290px;
+        margin-top: -55px;
+        margin-left: 590px;
     }
     15% {
-        /* Mais um ponto intermediário */
         transform: scale(0.97);
         opacity: 0.9;
-        margin-top: -41px;
-        margin-left: 291px;
+        margin-top: -56px;
+        margin-left: 591px;
     }
     30% {
         transform: scale(0.95);
         opacity: 0.9;
-        margin-top: -42px;
-        margin-left: 292px;
+        margin-top: -57px;
+        margin-left: 592px;
     }
     45% {
         transform: scale(0.97);
         opacity: 0.9;
-        margin-top: -41px;
-        margin-left: 291px;
+        margin-top: -56px;
+        margin-left: 591px;
     }
     60% {
         transform: scale(1);
         opacity: 1;
-        margin-top: -40px;
-        margin-left: 290px;
+        margin-top: -55px;
+        margin-left: 590px;
     }
     100% {
         transform: scale(1);
         opacity: 1;
-        margin-top: -40px;
-        margin-left: 290px;
+        margin-top: -55px;
+        margin-left: 590px;
     }
 }
 
@@ -183,9 +189,9 @@ h1 {
 }
 .crianca1{
     position: relative;
-    width: 40vw;
-    height: 35vh;
-    margin: -180px 0px 0px 0px;
+    width: 45vw;
+    height: 40vh;
+    margin: -250px 0px 0px 0px;
 }
 .crianca2{
     position: relative;
@@ -197,5 +203,5 @@ h1 {
     position: relative;
     width: 50vw;
     height: 60vh;
-    margin: 380px 0px 0px 20px;
+    margin: -380px 0px 0px 20px;
 }
