@@ -49,7 +49,7 @@ export function Inform() {
                                 height: '145px',
                                 position: 'absolute',
                                 top: "300px",
-                                left: "710px",
+                                left: "740px",
                                 borderRadius: "8px",
                                 zIndex: "1"
                             }}

@@ -31,7 +31,7 @@
     position: absolute;
     width: 23vw;
     height: 80vh;
-    margin-left: -500px;
+    margin-left: -470px;
     margin-top: 120px;
     z-index: 0;
 }
@@ -74,22 +74,25 @@
     color: #ffffff;
     font-size: 30px;
     top: 510px;
-    left: 755px;
+    left: 785px;
     z-index: 1;
     animation: play 3s ease-in-out infinite;
     animation-delay: 2s;
 }
+
 @keyframes play {
     0% {
         transform: scale(1);
         opacity: 1;
     }
+
     15% {
         transform: scale(0.97);
         opacity: 0.3;
         color: red;
         font-size: 32px;
     }
+
     30% {
         transform: scale(0.95);
         opacity: 0.9;
@@ -98,29 +101,31 @@
         margin-top: -6px;
         margin-left: -2px;
     }
+
     45% {
         transform: scale(0.97);
         opacity: 0.3;
         color: rgb(143, 78, 78);
         font-size: 32px;
     }
+
     60% {
         transform: scale(1);
         opacity: 1;
     }
+
     100% {
         transform: scale(1);
         opacity: 1;
     }
 }
 
-
 .text {
     height: 25vh;
-    width: 15vw;
-    background-color: #fcfceb;
-    margin: 0px 0px 0px 140px;
+    width: 20vw;
+    margin: 0px 0px 0px 300px;
     font-family: 'Instrument Sans';
+    background-color: white !important;
 }
 
 h3 {
