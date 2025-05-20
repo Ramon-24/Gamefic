@@ -84,6 +84,7 @@ input::placeholder {
     justify-content: space-around;
     padding: 0;
     margin: 0;
+    font-family: 'Instrument Sans';
     font-size: 25px;
     gap: 160px;
 }
@@ -103,7 +104,7 @@ input::placeholder {
     -webkit-appearance: none;
     -moz-appearance: none;
     background-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Instrument Sans' !important;
     outline: none;
 }
 .seletor_ling::-ms-expand {
@@ -114,14 +115,15 @@ input::placeholder {
 .text-aprest {
     width: 35vw;
     font-size: 43px;
-    padding: 10px 10px 0px 90px
+    font-family: 'Instrument Sans'!important;
+    padding: 10px 10px 0px 90px;
 }
 h2 {
     font-family: 'Instrument Sans';
 }
 .text-logo {
     font-size: 160px;
-    padding: 0px 10px 10px 530px
+    padding: 0px 10px 10px 530px;
 }
 h1 {
     font-family: 'Jersey 20';
