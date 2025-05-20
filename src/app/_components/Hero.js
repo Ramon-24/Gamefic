@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import '../_components/Hero.css'
-import '../_components/Hero_respns.css'
+// import '../_components/Hero_respns.css'
 
 export function Hero() {
     return (
