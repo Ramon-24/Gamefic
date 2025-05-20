@@ -19,7 +19,7 @@ export function Config() {
 
                 {/* Conteúdo em cima da imagem */}
                 <div className="text_config">
-                    <h1 className="text">Configurações</h1>
+                    <h1 className="text-conf">Configurações</h1>
 
                     <div className="text-conteiner">
                         <div className="text1">

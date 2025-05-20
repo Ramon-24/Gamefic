@@ -56,13 +56,13 @@
     padding: 40px;
 }
 
-.text {
+.text-conf {
     transform: translateX(-160px);
     font-size: 50px;
-    background-color: #ffd646;
+    background-color: #ffd646 !important;
     font-family: 'Instrument Sans';
     color: rgb(0, 0, 0);
-    padding: 10px 20px;
+    padding: 20px 190px;
     display: inline-block;
     margin-bottom: 30px;
     opacity: 0.9;
@@ -77,7 +77,7 @@
 .text1 {
     width: 23vw;
     height: 45vh;
-    transform: translateY(-120px);
+    transform: translateY(10px);
 }
 
 .text-size {
