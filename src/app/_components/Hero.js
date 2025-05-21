@@ -1,13 +1,11 @@
 import Image from 'next/image';
 import '../_components/Hero.css'
-// import '../_components/Hero_respns.css'
 
 export function Hero() {
     return (
         <section className='hero_body'>
             <nav>
                 <ul>
-
                     <li>
                         <div className='logo'>
                             <Image
@@ -28,14 +26,15 @@ export function Hero() {
                                 // value="Perquisar"
                                 placeholder="Pesquisar"
                             />
+
                             <div className='search'>
                                 <i className="bi bi-search"></i>
                             </div>
+
                         </form>
                     </li>
 
                     <div className='navr'>
-
                         <li>
                             Entrar
                         </li>
@@ -45,8 +44,8 @@ export function Hero() {
                         </li>
 
                         <li>
-                            <select className='seletor_ling'>
 
+                            <select className='seletor_ling'>
                                 <option placeholder="pt">
                                     Português BR
                                 </option>
@@ -58,10 +57,9 @@ export function Hero() {
                                 <option placeholder="en">
                                     Inglês
                                 </option>
-
                             </select>
-                        </li>
 
+                        </li>
                     </div>
                 </ul>
             </nav>
@@ -85,7 +83,6 @@ export function Hero() {
                 </div>
 
                 <main className='trioCriancas'>
-
                     <div className='crianca1'>
                         <Image
                             src="/crianca1.png"

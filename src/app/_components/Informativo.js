@@ -1,12 +1,9 @@
 "use client";
-
 import { useState, useRef } from "react";
 import Image from "next/image"
 import '../_components/Informativo.css'
-// import '../_components/videoPubli'
 
 export function Inform() {
-
     const [showModal, setShowModal] = useState(false);
     const videoRef = useRef(null);
 
@@ -32,14 +29,13 @@ export function Inform() {
         }
     };
 
-
     return (
         <main className="inform_body">
             <div>
                 <h1 className="titulo">Descubra como o Gamefic funciona </h1>
             </div>
-            <section className="coluna">
 
+            <section className="coluna">
                 <nav>
                     <div className="caixa">
                         <div className='circulo'>
@@ -47,6 +43,7 @@ export function Inform() {
                                 <i className="bi bi-puzzle"></i>
                             </div>
                         </div>
+
                         <div className="text">
                             <h3>Jogos educativos</h3>
                             <p>Desafios por leitura como matemática, leitura e ciências.</p>
@@ -59,10 +56,12 @@ export function Inform() {
                                 <i className="bi bi-journal-text"></i>
                             </div>
                         </div>
+
                         <div className="text">
                             <h3>Atividades Criativas</h3>
                             <p>Desenhar, colorir e criação de histórias próprias</p>
                         </div>
+
                     </div>
                 </nav>
 
@@ -86,6 +85,7 @@ export function Inform() {
                             }}
                         />
                     </div>
+
                     <div className="cell">
                         <Image
                             src='/cell.png'
@@ -96,10 +96,10 @@ export function Inform() {
                             fill
                         />
                     </div>
+
                     <div className="play" onClick={handleOpen}>
                         <i className="bi bi-collection-play-fill"></i>
                     </div>
-
                     {showModal && (
                         <div className="modal-overlay">
                             <div className="modal-content">
@@ -108,15 +108,14 @@ export function Inform() {
                                     ref={videoRef}
                                     width="100%"
                                     controls
-                                    onDoubleClick={handleFullscreen}
-                                >
+                                    onDoubleClick={handleFullscreen}>
                                     <source src="/public/bob-esponja-uma-hora-depois.mp4" type="video/mp4" />
                                     Seu navegador não suporta vídeos.
                                 </video>
+
                             </div>
                         </div>
                     )}
-
                 </nav>
 
                 <nav>
@@ -126,6 +125,7 @@ export function Inform() {
                                 <i className="bi bi-palette"></i>
                             </div>
                         </div>
+
                         <div className="text">
                             <h3>Histórias interativas</h3>
                             <p>Personagens te levam por aventuras enquanto você aprende</p>
@@ -138,13 +138,13 @@ export function Inform() {
                                 <i className="bi bi-hand-thumbs-up"></i>
                             </div>
                         </div>
+
                         <div className="text">
                             <h3>Recomendado por profissionais</h3>
                             <p>Recomendado para todas as fases iniciais das turminhas</p>
                         </div>
                     </div>
                 </nav>
-
             </section>
         </main>
     )

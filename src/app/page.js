@@ -1,6 +1,6 @@
 import { Hero } from "./_components/Hero";
 import { Inform } from "./_components/Informativo";
-import { Config } from "./_components/Config";
+import { Coment } from "./_components/Coment";
 import { Contato } from "./_components/Contato";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <Hero/>
       <Inform/>
-      <Config/>
+      <Coment/>
       <Contato/>
     </main>
   );

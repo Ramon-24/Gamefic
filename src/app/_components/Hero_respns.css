@@ -1,11 +1,9 @@
 /* ---------- Responsividade para telas de 1920 x 1080 ---------- */
 @media screen and (min-width: 1900px) and (max-width: 1930px) and (min-height: 1000px) and (max-height: 1100px) {
-
     .logo {
         width: 95px;
         height: 95px;
     }
-
     .text-aprest {
         font-size: 45px;
         /* padding: 30px 60px 1px 130px; */
@@ -13,52 +11,43 @@
         max-width: 50vw;
         text-align: left;
     }
-
     .text-logo {
         font-size: 160px;
         padding: 1px 20px 20px 560px;
         text-align: left;
     }
-
     .input {
         width: 630px;
         height: 45px;
         font-size: 20px;
     }
-
     .search {
         left: 600px;
         top: 31px;
         font-size: 20px;
     }
-
     .trioCriancas {
         gap: 60px;
         padding: -40px 0px 0px 0px;
     }
-
     .navr {
         gap: 100px;
         font-size: 25px;
     }
-
     .seletor_ling {
         padding-right: 25px;
         background-size: 23px;
         font-size: 23px;
         font-family: 'Times New Roman', Times, serif;
     }
-
     form {
         padding: 20px 30px;
     }
-
     .mousePosition {
         width: 120px;
         height: 120px;
         margin: -125px 0px 0px 1130px;
     }
-
     @keyframes click {
         0% {
             transform: scale(1);
@@ -66,35 +55,30 @@
             margin-top: -60px;
             margin-left: 574px;
         }
-
         15% {
             transform: scale(0.97);
             opacity: 0.9;
             margin-top: -61px;
             margin-left: 575px;
         }
-
         30% {
             transform: scale(0.95);
             opacity: 0.9;
             margin-top: -62px;
             margin-left: 576px;
         }
-
         45% {
             transform: scale(0.97);
             opacity: 0.9;
             margin-top: -61px;
             margin-left: 575px;
         }
-
         60% {
             transform: scale(1);
             opacity: 1;
             margin-top: -60px;
             margin-left: 574px;
         }
-
         100% {
             transform: scale(1);
             opacity: 1;
@@ -106,12 +90,10 @@
 
 /* ---------- Responsividade para telas de 1280 x 720 ---------- */
 @media screen and (min-width: 1260px) and (max-width: 1300px) and (min-height: 700px) and (max-height: 740px) {
-
     .logo {
         width: 65px;
         height: 65px;
     }
-
     .text-aprest {
         font-size: 30px;
         /* padding: 30px 60px 1px 130px; */
@@ -119,52 +101,43 @@
         max-width: 50vw;
         text-align: left;
     }
-
     .text-logo {
         font-size: 120px;
         padding: 1px 20px 20px 330px;
         text-align: left;
     }
-
     .input {
         width: 460px;
         height: 35px;
         font-size: 15px;
     }
-
     .search {
         left: 440px;
         top: 26px;
         font-size: 12px;
     }
-
     .trioCriancas {
         gap: 25px;
         padding: -50px -10px;
     }
-
     .navr {
         gap: 50px;
         font-size: 20px;
     }
-
     .seletor_ling {
         padding-right: 15px;
         background-size: 15px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
     }
-
     form {
         padding: 15px 25px;
     }
-
     .mousePosition {
         width: 90px;
         height: 90px;
         margin: -90px 0px 0px 770px;
     }
-
     @keyframes click {
         0% {
             transform: scale(1);
@@ -172,35 +145,30 @@
             margin-top: -40px;
             margin-left: 390px;
         }
-
         15% {
             transform: scale(0.97);
             opacity: 0.9;
             margin-top: -41px;
             margin-left: 391px;
         }
-
         30% {
             transform: scale(0.95);
             opacity: 0.9;
             margin-top: -42px;
             margin-left: 392px;
         }
-
         45% {
             transform: scale(0.97);
             opacity: 0.9;
             margin-top: -43px;
             margin-left: 391px;
         }
-
         60% {
             transform: scale(1);
             opacity: 1;
             margin-top: -40px;
             margin-left: 390px;
         }
-
         100% {
             transform: scale(1);
             opacity: 1;
@@ -210,75 +178,61 @@
     }
 }
 
-
 /* ---------- Responsividade para telas de 788 x 1024 ---------- */
 @media screen and (min-width: 768px) and (max-width: 800px) and (min-height: 1000px) and (max-height: 1050px) {
-
     .logo {
         width: 70px;
         height: 70px;
     }
-
     .text-aprest {
         padding: 20px;
     }
-
     h2 {
         font-size: 30px;
         max-width: 100vw;
     }
-
     .text-logo {
         font-size: 75px;
         padding: 10px 10px 10px 180px;
         text-align: left;
     }
-
     .input {
         width: 300px;
         height: 32px;
         font-size: 16px;
     }
-
     .search {
         left: 280px;
         top: 18px;
         font-size: 14px;
     }
-
     .trioCriancas {
         gap: -30px;
         padding: 60px 0px 0px 0px;
         flex-direction: row;
         align-items: center;
     }
-
     .navr {
         gap: 0px;
         font-size: 15px;
-        /* flex-wrap: wrap; */
         padding-right: 30px;
     }
-
     .seletor_ling {
         padding-right: 16px;
         background-size: 15px;
         font-size: 12px;
         font-family: 'Times New Roman', Times, serif;
     }
-
     form {
         padding: 10px 20px;
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .mousePosition {
         width: 70px;
         height: 70px;
         margin: -60px 0px 0px 452px;
     }
-
     @keyframes click {
         0% {
             transform: scale(1);
@@ -286,35 +240,30 @@
             margin-top: -30px;
             margin-left: 220px;
         }
-
         15% {
             transform: scale(0.97);
             opacity: 0.9;
             margin-top: -31px;
             margin-left: 221px;
         }
-
         30% {
             transform: scale(0.95);
             opacity: 0.9;
             margin-top: -32px;
             margin-left: 222px;
         }
-
         45% {
             transform: scale(0.97);
             opacity: 0.9;
             margin-top: -31px;
             margin-left: 221px;
         }
-
         60% {
             transform: scale(1);
             opacity: 1;
             margin-top: -30px;
             margin-left: 220px;
         }
-
         100% {
             transform: scale(1);
             opacity: 1;
@@ -324,220 +273,283 @@
     }
 }
 
-
-@media screen and (max-width: 330px) and (max-height: 500px) {
-
+/* Telas grandes (acima de 1200px - desktops maiores) */
+@media screen and (min-width: 1201px) {
     .logo {
-        width: 40px;
-        height: 40px;
+        width: 90px;
+        height: 90px;
     }
-
     .text-aprest {
-        padding: 6px;
-        /* text-align: center; */
-    }
-
-    h2 {
-        font-size: 13px;
-        max-width: 1000vw;
-    }
-
-    .text-logo {
         font-size: 40px;
-        padding: 0px 0px 0px 100px;
-        /* text-align: center; */
+        padding: 40px;
+        text-align: left;
     }
-
+    .text-logo {
+        font-size: 120px;
+        padding: 40px 40px 40px 200px;
+        text-align: left;
+    }
     .input {
-        width: 200px;
-        height: 25px;
-        font-size: 4px;
-    }
-
-    input::placeholder {
-        font-size: 15px;
-        padding-top: 16px;
-    }
-
-    .search {
-        left: 175px;
-        top: 10px;
-        font-size: 12px;
-    }
-
-    .crianca1 {
-        position: relative;
-        width: 40vw;
-        height: 35vh;
-        margin: -70px 0px 0px 5px;
-    }
-
-    .crianca2 {
-        display: none;
-    }
-
-    .crianca3 {
-        position: relative;
-        width: 60vw;
-        height: 70vh;
-        margin: -15px 0px 0px 50px;
-    }
-
-    .navr {
-        display: none;
-    }
-
-    .seletor_ling {
-        padding-right: 10px;
-        background-size: 12px;
-        font-size: 12px;
-    }
-
-    form {
-        padding: 5px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .mousePosition {
-        width: 50px;
+        width: 700px;
         height: 50px;
-        margin: -30px 0px 0px 250px;
+        font-size: 24px;
     }
-
-    @keyframes click {
-        0% {
-            transform: scale(1);
-            opacity: 1;
-            margin-top: -15px;
-            margin-left: 125px;
-        }
-
-        15% {
-            transform: scale(0.97);
-            opacity: 0.9;
-            margin-top: -16px;
-            margin-left: 126px;
-        }
-
-        30% {
-            transform: scale(0.95);
-            opacity: 0.9;
-            margin-top: -17px;
-            margin-left: 127px;
-        }
-
-        45% {
-            transform: scale(0.97);
-            opacity: 0.9;
-            margin-top: -16px;
-            margin-left: 126px;
-        }
-
-        60% {
-            transform: scale(1);
-            opacity: 1;
-            margin-top: -15px;
-            margin-left: 125px;
-        }
-
-        100% {
-            transform: scale(1);
-            opacity: 1;
-            margin-top: -15px;
-            margin-left: 125px;
-        }
-    }
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 576px) {
-
-    /* Estilos para a logo */
-    .logo {
-        width: 40px;
-        height: 40px;
-    }
-
-    /* Estilos para o texto de apresentação */
-    .text-aprest {
-        font-size: 18px;
-        padding: 10px;
-        text-align: center;
-    }
-
-    /* Estilos para o texto do logo grande */
-    .text-logo {
-        font-size: 40px;
-        padding: 10px;
-        text-align: center;
-    }
-
-    /* Estilos para o input de pesquisa */
-    .input {
-        width: 90%;
-        height: 30px;
-        font-size: 16px;
-    }
-
-    /* Estilos para o ícone de pesquisa */
     .search {
-        left: auto;
-        right: 10px;
+        left: 670px;
         top: 50%;
         transform: translateY(-50%);
+        font-size: 22px;
     }
-
-    /* Estilos para a seção das crianças */
     .trioCriancas {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding: 60px;
+        gap: 50px;
     }
-
     .crianca1,
     .crianca2,
     .crianca3 {
-        width: 80%;
+        width: 18%;
         height: auto;
     }
-
-    /* Estilos para a navegação */
     .navr {
-        display: none;
-        /* Ocultar a navegação principal em telas pequenas, talvez usar um menu hambúrguer */
+        display: flex;
+        gap: 50px;
+        font-size: 24px;
     }
-
-    /* Estilos para o seletor de idioma */
     .seletor_ling {
-        font-size: 14px;
-        padding: 8px 15px;
+        font-size: 22px;
+        padding: 15px 30px;
     }
-
-    /* Estilos para o formulário */
     form {
-        padding: 15px;
-        flex-direction: column;
-        align-items: stretch;
+        padding: 40px;
+        flex-direction: row;
+        align-items: center;
     }
-
-    /* Estilos para o mouse animado */
     .mousePosition {
-        width: 50px;
-        height: 50px;
-        margin: -30px auto 20px auto;
-        /* Centralizar */
+        width: 120px;
+        height: 120px;
+        margin: -100px 0 0 400px;
     }
+}
 
-    /* ... outros estilos específicos para telas pequenas ... */
+/* Telas grandes (993px a 1200px - desktops menores) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .text-aprest {
+        font-size: 36px;
+        padding: 30px;
+        text-align: left;
+    }
+    .text-logo {
+        font-size: 100px;
+        padding: 30px 30px 30px 100px;
+        text-align: left;
+    }
+    .input {
+        width: 600px;
+        height: 45px;
+        font-size: 22px;
+    }
+    .search {
+        left: 570px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+    }
+    .trioCriancas {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding: 50px;
+        gap: 40px;
+    }
+    .crianca1,
+    .crianca2,
+    .crianca3 {
+        width: 20%;
+        height: auto;
+    }
+    .navr {
+        display: flex;
+        gap: 40px;
+        font-size: 22px;
+    }
+    .seletor_ling {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+    form {
+        padding: 30px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .mousePosition {
+        width: 100px;
+        height: 100px;
+        margin: -80px 0 0 300px;
+    }
+}
+
+
+/* Telas grandes (desktops médios) */
+@media screen and (min-width: 993px) and (max-width: 1200px) and (max-height: 1300px) {
+    .logo {
+        width: 85px;
+        height: 85px;
+    }
+    .text-aprest {
+        font-size: 35px;
+        padding: 20px;
+    }
+    .text-logo {
+        font-size: 140px;
+        padding: 10px 20px 20px 400px;
+    }
+    .input {
+        width: 500px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .search {
+        left: 480px;
+        top: 25px;
+        font-size: 16px;
+    }
+    .mousePosition {
+        width: 100px;
+        height: 100px;
+        margin: -90px 0px 0px 650px;
+    }
+}
+
+
+/* Telas médias (769px a 992px - tablets maiores e desktops pequenos) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+    .text-aprest {
+        font-size: 30px;
+        padding: 20px;
+        text-align: left;
+    }
+    .text-logo {
+        font-size: 80px;
+        padding: 20px 20px 20px 50px;
+        text-align: left;
+    }
+    .input {
+        width: 500px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .search {
+        left: 470px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 18px;
+    }
+    .trioCriancas {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding: 40px;
+        gap: 30px;
+    }
+    .crianca1,
+    .crianca2,
+    .crianca3 {
+        width: 25%;
+        height: auto;
+    }
+    .navr {
+        display: flex;
+        gap: 30px;
+        font-size: 20px;
+    }
+    .seletor_ling {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    form {
+        padding: 25px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .mousePosition {
+        width: 80px;
+        height: 80px;
+        margin: -60px 0 0 200px;
+    }
+}
+
+
+/* Telas médias (tablets maiores e desktops pequenos) */
+@media screen and (min-width: 769px) and (max-width: 992px) and (max-height: 1200px) {
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+    .text-aprest {
+        font-size: 28px;
+        padding: 15px;
+    }
+    .text-logo {
+        font-size: 90px;
+        padding: 10px 15px 15px 250px;
+    }
+    .input {
+        width: 350px;
+        height: 38px;
+        font-size: 16px;
+    }
+    .search {
+        left: 330px;
+        top: 20px;
+        font-size: 14px;
+    }
+    .mousePosition {
+        width: 80px;
+        height: 80px;
+        margin: -70px 0px 0px 500px;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) and (max-height: 999px) {
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+    .text-aprest {
+        font-size: 22px;
+        padding: 10px;
+    }
+    .text-logo {
+        font-size: 60px;
+        padding: 5px 10px 10px 150px;
+    }
+    .input {
+        width: 250px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .search {
+        left: 230px;
+        top: 15px;
+        font-size: 12px;
+    }
+    .mousePosition {
+        width: 60px;
+        height: 60px;
+        margin: -50px 0px 0px 350px;
+    }
 }
 
 /* Telas médias (577px a 768px - celulares maiores e tablets pequenos) */
@@ -546,25 +558,21 @@
         width: 60px;
         height: 60px;
     }
-
     .text-aprest {
         font-size: 24px;
         padding: 15px;
         text-align: center;
     }
-
     .text-logo {
         font-size: 60px;
         padding: 15px;
         text-align: center;
     }
-
     .input {
         width: 70%;
         height: 35px;
         font-size: 18px;
     }
-
     .search {
         left: auto;
         right: 15px;
@@ -572,7 +580,6 @@
         transform: translateY(-50%);
         font-size: 16px;
     }
-
     .trioCriancas {
         flex-direction: row;
         justify-content: space-around;
@@ -580,26 +587,20 @@
         padding: 30px;
         gap: 15px;
     }
-
     .crianca1,
     .crianca2,
     .crianca3 {
         width: 30%;
         height: auto;
     }
-
     .navr {
         gap: 20px;
         font-size: 18px;
-        /* display: flex; */
-        /* Se quiser exibir em telas maiores */
     }
-
     .seletor_ling {
         font-size: 16px;
         padding: 10px 20px;
     }
-
     form {
         padding: 20px;
         flex-direction: row;
@@ -607,343 +608,171 @@
         align-items: center;
         flex-wrap: wrap;
     }
-
     .mousePosition {
         width: 70px;
         height: 70px;
         margin: -50px auto 30px auto;
     }
-
-    /* ... outros estilos para telas médias ... */
 }
 
-/* Telas médias (769px a 992px - tablets maiores e desktops pequenos) */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+
+@media screen and (max-width: 576px) {
     .logo {
-        width: 70px;
-        height: 70px;
-    }
-
-    .text-aprest {
-        font-size: 30px;
-        padding: 20px;
-        text-align: left;
-    }
-
-    .text-logo {
-        font-size: 80px;
-        padding: 20px 20px 20px 50px;
-        text-align: left;
-    }
-
-    .input {
-        width: 500px;
+        width: 40px;
         height: 40px;
-        font-size: 20px;
     }
-
-    .search {
-        left: 470px;
-        top: 50%;
-        transform: translateY(-50%);
+    .text-aprest {
         font-size: 18px;
-    }
-
-    .trioCriancas {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-end;
-        padding: 40px;
-        gap: 30px;
-    }
-
-    .crianca1,
-    .crianca2,
-    .crianca3 {
-        width: 25%;
-        height: auto;
-    }
-
-    .navr {
-        display: flex;
-        gap: 30px;
-        font-size: 20px;
-    }
-
-    .seletor_ling {
-        font-size: 18px;
-        padding: 10px 20px;
-    }
-
-    form {
-        padding: 25px;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .mousePosition {
-        width: 80px;
-        height: 80px;
-        margin: -60px 0 0 200px;
-        /* Ajuste a posição */
-    }
-}
-
-/* Telas grandes (993px a 1200px - desktops menores) */
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-
-    /* ... seus estilos para telas grandes ... */
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    .text-aprest {
-        font-size: 36px;
-        padding: 30px;
-        text-align: left;
-    }
-
-    .text-logo {
-        font-size: 100px;
-        padding: 30px 30px 30px 100px;
-        text-align: left;
-    }
-
-    .input {
-        width: 600px;
-        height: 45px;
-        font-size: 22px;
-    }
-
-    .search {
-        left: 570px;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 20px;
-    }
-
-    .trioCriancas {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-end;
-        padding: 50px;
-        gap: 40px;
-    }
-
-    .crianca1,
-    .crianca2,
-    .crianca3 {
-        width: 20%;
-        height: auto;
-    }
-
-    .navr {
-        display: flex;
-        gap: 40px;
-        font-size: 22px;
-    }
-
-    .seletor_ling {
-        font-size: 20px;
-        padding: 12px 25px;
-    }
-
-    form {
-        padding: 30px;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .mousePosition {
-        width: 100px;
-        height: 100px;
-        margin: -80px 0 0 300px;
-        /* Ajuste a posição */
-    }
-}
-
-/* Telas grandes (acima de 1200px - desktops maiores) */
-@media screen and (min-width: 1201px) {
-
-    /* ... seus estilos para telas grandes ... */
-    .logo {
-        width: 90px;
-        height: 90px;
-    }
-
-    .text-aprest {
-        font-size: 40px;
-        padding: 40px;
-        text-align: left;
-    }
-
-    .text-logo {
-        font-size: 120px;
-        padding: 40px 40px 40px 200px;
-        text-align: left;
-    }
-
-    .input {
-        width: 700px;
-        height: 50px;
-        font-size: 24px;
-    }
-
-    .search {
-        left: 670px;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 22px;
-    }
-
-    .trioCriancas {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-end;
-        padding: 60px;
-        gap: 50px;
-    }
-
-    .crianca1,
-    .crianca2,
-    .crianca3 {
-        width: 18%;
-        height: auto;
-    }
-
-    .navr {
-        display: flex;
-        gap: 50px;
-        font-size: 24px;
-    }
-
-    .seletor_ling {
-        font-size: 22px;
-        padding: 15px 30px;
-    }
-
-    form {
-        padding: 40px;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .mousePosition {
-        width: 120px;
-        height: 120px;
-        margin: -100px 0 0 400px;
-        /* Ajuste a posição */
-    }
-}
-
-@media screen and (min-width: 577px) and (max-width: 768px) and (max-height: 999px) {
-    .logo {
-        width: 55px;
-        height: 55px;
-    }
-
-    .text-aprest {
-        font-size: 22px;
         padding: 10px;
+        text-align: center;
     }
-
     .text-logo {
-        font-size: 60px;
-        padding: 5px 10px 10px 150px;
+        font-size: 40px;
+        padding: 10px;
+        text-align: center;
     }
-
     .input {
-        width: 250px;
+        width: 90%;
         height: 30px;
-        font-size: 14px;
+        font-size: 16px;
     }
-
     .search {
-        left: 230px;
-        top: 15px;
+        left: auto;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .trioCriancas {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .crianca1,
+    .crianca2,
+    .crianca3 {
+        width: 80%;
+        height: auto;
+    }
+    .navr {
+        display: none;
+    }
+    .seletor_ling {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    form {
+        padding: 15px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .mousePosition {
+        width: 50px;
+        height: 50px;
+        margin: -30px auto 20px auto;
+    }
+}
+
+
+@media screen and (max-width: 330px) and (max-height: 500px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    .text-aprest {
+        padding: 6px;
+    }
+    h2 {
+        font-size: 13px;
+        max-width: 1000vw;
+    }
+    .text-logo {
+        font-size: 40px;
+        padding: 0px 0px 0px 100px;
+    }
+    .input {
+        width: 200px;
+        height: 25px;
+        font-size: 4px;
+    }
+    input::placeholder {
+        font-size: 15px;
+        padding-top: 16px;
+    }
+    .search {
+        left: 175px;
+        top: 10px;
         font-size: 12px;
     }
-
+    .crianca1 {
+        position: relative;
+        width: 40vw;
+        height: 35vh;
+        margin: -70px 0px 0px 5px;
+    }
+    .crianca2 {
+        display: none;
+    }
+    .crianca3 {
+        position: relative;
+        width: 60vw;
+        height: 70vh;
+        margin: -15px 0px 0px 50px;
+    }
+    .navr {
+        display: none;
+    }
+    .seletor_ling {
+        padding-right: 10px;
+        background-size: 12px;
+        font-size: 12px;
+    }
+    form {
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
     .mousePosition {
-        width: 60px;
-        height: 60px;
-        margin: -50px 0px 0px 350px;
+        width: 50px;
+        height: 50px;
+        margin: -30px 0px 0px 250px;
     }
-
-    /* ... outros estilos para telas médias ... */
-}
-
-/* Telas médias (tablets maiores e desktops pequenos) */
-@media screen and (min-width: 769px) and (max-width: 992px) and (max-height: 1200px) {
-    .logo {
-        width: 75px;
-        height: 75px;
-    }
-
-    .text-aprest {
-        font-size: 28px;
-        padding: 15px;
-    }
-
-    .text-logo {
-        font-size: 90px;
-        padding: 10px 15px 15px 250px;
-    }
-
-    .input {
-        width: 350px;
-        height: 38px;
-        font-size: 16px;
-    }
-
-    .search {
-        left: 330px;
-        top: 20px;
-        font-size: 14px;
-    }
-
-    .mousePosition {
-        width: 80px;
-        height: 80px;
-        margin: -70px 0px 0px 500px;
-    }
-}
-
-/* Telas grandes (desktops médios) */
-@media screen and (min-width: 993px) and (max-width: 1200px) and (max-height: 1300px) {
-
-    /* ... seus estilos para telas grandes (desktops médios) ... */
-    .logo {
-        width: 85px;
-        height: 85px;
-    }
-
-    .text-aprest {
-        font-size: 35px;
-        padding: 20px;
-    }
-
-    .text-logo {
-        font-size: 140px;
-        padding: 10px 20px 20px 400px;
-    }
-
-    .input {
-        width: 500px;
-        height: 40px;
-        font-size: 18px;
-    }
-
-    .search {
-        left: 480px;
-        top: 25px;
-        font-size: 16px;
-    }
-
-    .mousePosition {
-        width: 100px;
-        height: 100px;
-        margin: -90px 0px 0px 650px;
+    @keyframes click {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -15px;
+            margin-left: 125px;
+        }
+        15% {
+            transform: scale(0.97);
+            opacity: 0.9;
+            margin-top: -16px;
+            margin-left: 126px;
+        }
+        30% {
+            transform: scale(0.95);
+            opacity: 0.9;
+            margin-top: -17px;
+            margin-left: 127px;
+        }
+        45% {
+            transform: scale(0.97);
+            opacity: 0.9;
+            margin-top: -16px;
+            margin-left: 126px;
+        }
+        60% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -15px;
+            margin-left: 125px;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -15px;
+            margin-left: 125px;
+        }
     }
 }
