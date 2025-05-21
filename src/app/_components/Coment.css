@@ -78,6 +78,7 @@
     width: 23vw;
     height: 45vh;
     transform: translateY(10px);
+    text-align: justify;
 }
 
 .text-size {
@@ -126,6 +127,7 @@
     height: 30vh;
     width: 50vw;
     font-family: 'Instrument Sans';
+    text-align: justify;
 }
 
 .pageInform-button {
