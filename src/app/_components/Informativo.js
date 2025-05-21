@@ -1,7 +1,38 @@
+"use client";
+
+import { useState, useRef } from "react";
 import Image from "next/image"
 import '../_components/Informativo.css'
+// import '../_components/videoPubli'
 
 export function Inform() {
+
+    const [showModal, setShowModal] = useState(false);
+    const videoRef = useRef(null);
+
+    const handleOpen = () => {
+        console.log("Play clicado");
+        setShowModal(true);
+        setTimeout(() => {
+            videoRef.current?.play();
+        }, 300);
+    };
+
+    const handleClose = () => {
+        if (videoRef.current) {
+            videoRef.current.pause();
+            videoRef.current.currentTime = 0;
+        }
+        setShowModal(false);
+    };
+
+    const handleFullscreen = () => {
+        if (videoRef.current?.requestFullscreen) {
+            videoRef.current.requestFullscreen();
+        }
+    };
+
+
     return (
         <main className="inform_body">
             <div>
@@ -65,9 +96,27 @@ export function Inform() {
                             fill
                         />
                     </div>
-                    <div className="play">
+                    <div className="play" onClick={handleOpen}>
                         <i className="bi bi-collection-play-fill"></i>
                     </div>
+
+                    {showModal && (
+                        <div className="modal-overlay">
+                            <div className="modal-content">
+                                <span className="modal-close" onClick={handleClose}>✕</span>
+                                <video
+                                    ref={videoRef}
+                                    width="100%"
+                                    controls
+                                    onDoubleClick={handleFullscreen}
+                                >
+                                    <source src="/public/bob-esponja-uma-hora-depois.mp4" type="video/mp4" />
+                                    Seu navegador não suporta vídeos.
+                                </video>
+                            </div>
+                        </div>
+                    )}
+
                 </nav>
 
                 <nav>
