@@ -1,0 +1,160 @@
+"use client";
+import { useState, useRef } from "react";
+import Image from 'next/image';
+import '../_components/Informativo.css';
+import '../_components/Responsividade/Informativo_resp.css';
+
+
+export function Inform() {
+    const [showModal, setShowModal] = useState(false);
+    const videoRef = useRef(null);
+
+    const handleOpen = () => {
+        console.log("Play clicado");
+        setShowModal(true);
+        setTimeout(() => {
+            videoRef.current?.play();
+        }, 300);
+    };
+
+    const handleClose = () => {
+        if (videoRef.current) {
+            videoRef.current.pause();
+            videoRef.current.currentTime = 0;
+        }
+        setShowModal(false);
+    };
+
+    const handleFullscreen = () => {
+        if (videoRef.current?.requestFullscreen) {
+            videoRef.current.requestFullscreen();
+        }
+    };
+
+    return (
+        <main className="inform_body">
+            <div>
+                <h1 className="titulo">Descubra como o Gamefic funciona </h1>
+            </div>
+
+            <section className="coluna">
+                <nav className="alinhar">
+                    <div className="caixa">
+                        <div className='circulo'>
+                            <div className="icon">
+                                <i className="bi bi-puzzle"></i>
+                            </div>
+                        </div>
+
+                        <div className="text">
+                            <h3 style={{ fontSize: '30px', }}>
+                                Jogos educativos
+                            </h3>
+                            <p tyle={{ fontSize: '23px', }}>
+                                Desafios por leitura como matemática, leitura e ciências.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="caixa">
+                        <div className='circulo'>
+                            <div className="icon">
+                                <i className="bi bi-journal-text"></i>
+                            </div>
+                        </div>
+
+                        <div className="text">
+                            <h3 style={{ fontSize: '30px', }}>
+                                Atividades Criativas
+                            </h3>
+                            <p tyle={{ fontSize: '23px', }}>
+                                Desenhar, colorir e criação de histórias próprias
+                            </p>
+                        </div>
+
+                    </div>
+                </nav>
+
+                <nav>
+                    <div>
+                        <video
+                            src="/gif.mp4"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            className="gif"
+                        />
+                    </div>
+
+                    <div className="cell">
+                        <Image
+                            src='/cell.png'
+                            alt='Celular'
+                            style={{
+                                objectFit: 'cover',
+                            }}
+                            fill
+                        />
+                    </div>
+
+                    <div className="play" onClick={handleOpen}>
+                        <i className="bi bi-collection-play-fill"></i>
+                    </div>
+                    {showModal && (
+                        <div className="modal-overlay">
+                            <div className="modal-content">
+                                <span className="modal-close" onClick={handleClose}>✕</span>
+                                <video
+                                    ref={videoRef}
+                                    width="100%"
+                                    controls
+                                    onDoubleClick={handleFullscreen}>
+                                    <source src="/public/bob-esponja-uma-hora-depois.mp4" type="video/mp4" />
+                                    Seu navegador não suporta vídeos.
+                                </video>
+
+                            </div>
+                        </div>
+                    )}
+                </nav>
+
+                <nav className="alinhar">
+                    <div className="caixa">
+                        <div className='circulo'>
+                            <div className="icon">
+                                <i className="bi bi-palette"></i>
+                            </div>
+                        </div>
+
+                        <div className="text">
+                            <h3 style={{ fontSize: '30px', }}>
+                                Histórias interativas
+                            </h3>
+                            <p tyle={{ fontSize: '23px', }}>
+                                Personagens te levam por aventuras enquanto você aprende
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="caixa">
+                        <div className='circulo'>
+                            <div className="icon">
+                                <i className="bi bi-hand-thumbs-up"></i>
+                            </div>
+                        </div>
+
+                        <div className="text">
+                            <h3 style={{ fontSize: '30px', }}>
+                                Recomendado por profissionais
+                            </h3>
+                            <p tyle={{ fontSize: '23px', }}>
+                                Recomendado para todas as fases iniciais das turminhas
+                            </p>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </main>
+    )
+}

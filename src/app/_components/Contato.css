@@ -1,0 +1,143 @@
+.contatoContainer {
+    width: 100%;
+    min-height: 90vh;
+    padding: 2rem 1rem;
+    font-family: 'Instrument Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    margin: 2rem auto;
+    border: none;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.column {
+    flex: 1;
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.menuList li {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    line-height: 1.5;
+}
+
+.iconItem i {
+    font-size: clamp(2rem, 8vw, 3.5rem);
+    color: #705CE1;
+}
+
+.boldItem {
+    font-weight: bold;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footerLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.footerLinks li {
+    font-size: clamp(0.8rem, 2.5vw, 1.1rem);
+    white-space: nowrap;
+}
+
+.languageSelector {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.flagContainer {
+    position: relative;
+    width: 40px;
+    height: 25px;
+}
+
+.flagImage {
+    object-fit: contain;
+}
+
+.socialIcons ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.socialIcons i {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    color: #705CE1;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .mainContent {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+
+    .footerContent {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerLinks {
+        justify-content: flex-start;
+    }
+
+    .languageSelector {
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .contatoContainer {
+        padding: 2rem 5rem;
+    }
+
+    .menuList {
+        gap: 2rem;
+    }
+
+    .footerLinks {
+        gap: 2rem;
+    }
+}

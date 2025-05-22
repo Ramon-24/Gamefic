@@ -1,43 +1,65 @@
 import Image from 'next/image';
 import '../_components/Hero.css';
+import '../_components/Responsividade/Hero_resp.css';
 
 export function Hero() {
     return (
         <section className='hero_body'>
             <nav>
                 <ul>
+                    <li>
                         <div className='logo'>
                             <Image
                                 src="/logoGamefic.png"
                                 alt='Logo'
+                                style={{ objectFit: 'cover' }}
                                 fill
-                                style={{ objectFit: 'contain' }}
-                                priority
                             />
                         </div>
+                    </li>
 
-
+                    <li>
                         <form>
                             <input
                                 className='input'
                                 type="text"
                                 name="input"
+                                // value="Perquisar"
                                 placeholder="Pesquisar"
                             />
+
                             <div className='search'>
                                 <i className="bi bi-search"></i>
                             </div>
+
                         </form>
+                    </li>
 
                     <div className='navr'>
-                        <li>Entrar</li>
-                        <li>Inscrever-se</li>
                         <li>
+                            Entrar
+                        </li>
+
+                        <li>
+                            Inscrever-se
+                        </li>
+
+                        <li>
+
                             <select className='seletor_ling'>
-                                <option value="pt">Português (PT-BR)</option>
-                                <option value="es">Español (Latam)</option>
-                                <option value="en">English (US)</option>
+                                <option placeholder="pt">
+                                    Português BR
+                                </option>
+
+                                <option placeholder="es">
+                                    Espanhol
+                                </option>
+
+                                <option placeholder="en">
+                                    Inglês
+                                </option>
                             </select>
+
                         </li>
                     </div>
                 </ul>
@@ -56,8 +78,8 @@ export function Hero() {
                     <Image
                         src="/mouse.png"
                         alt='Mouse'
+                        className='mouseImag'
                         fill
-                        style={{ objectFit: 'contain' }}
                     />
                 </div>
 
@@ -67,7 +89,6 @@ export function Hero() {
                             src="/crianca1.png"
                             alt='Crianças'
                             fill
-                            style={{ objectFit: 'contain' }}
                         />
                     </div>
 
@@ -76,7 +97,6 @@ export function Hero() {
                             src="/crianca2.png"
                             alt='Crianças'
                             fill
-                            style={{ objectFit: 'contain' }}
                         />
                     </div>
 
@@ -85,11 +105,10 @@ export function Hero() {
                             src="/crianca3.png"
                             alt='Crianças'
                             fill
-                            style={{ objectFit: 'contain' }}
                         />
                     </div>
                 </main>
             </div>
-        </section>
+        </section >
     );
-}
+};

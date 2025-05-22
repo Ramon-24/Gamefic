@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lobster&family=Sixtyfour+Convergence&family=Syncopate:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jersey+20&family=Lobster&family=Sixtyfour+Convergence&family=Syncopate:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.hero_body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #705CE1;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Configurações da guia superior */
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin-right: 50px;
+    /* gap: 10px; */
+}
+ul li:last-child {
+    margin-right: 0;
+}
+
+/* Configurações da logo */
+.logo{
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+/* Configurações da barra de pesquisa */
+form {
+    display: flex;
+    background-color: #705ce1;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.input {
+    height: 50px;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-radius: 36px;
+    color: #fff;
+    opacity: 0.9;
+    border: 1px solid #fff;
+    background-color: #705CE1;
+    outline: none;
+}
+input::placeholder {
+    color: #fff;
+    padding-left: 2px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.search {
+    position: absolute;
+    font-size: 23px;
+    top: 12px;
+    left: 560px;
+    opacity: 1;
+}
+
+/* Configurações de espaço entre os ultimos 3 elementos */
+.navr {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    font-family: 'Instrument Sans';
+    font-size: 25px;
+    gap: 160px;
+}
+
+/* Configurações do seletor de idiomas */
+.seletor_ling {
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23ffffff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #705ce1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-right: 20px;
+    appearance: none;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-size: 20px;
+    font-family: 'Instrument Sans' !important;
+    outline: none;
+}
+.seletor_ling::-ms-expand {
+    display: none;
+}
+
+/* Configurações de texto */
+.text-aprest {
+    width: 35vw;
+    font-size: 43px;
+    font-family: 'Instrument Sans'!important;
+    padding: 10px 10px 0px 90px;
+}
+h2 {
+    font-family: 'Instrument Sans';
+}
+.text-logo {
+    font-size: 160px;
+    padding: 0px 10px 10px 530px;
+}
+h1 {
+    font-family: 'Jersey 20';
+    color: #FFD351;
+}
+
+/* Conficurações do mouse */
+.mousePosition {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: -110px 1px 1px 1180px;
+    animation: click 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.mouseImag {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    animation: click 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+@keyframes click {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        margin-top: -55px;
+        margin-left: 590px;
+    }
+    15% {
+        transform: scale(0.97);
+        opacity: 0.9;
+        margin-top: -56px;
+        margin-left: 591px;
+    }
+    30% {
+        transform: scale(0.95);
+        opacity: 0.9;
+        margin-top: -57px;
+        margin-left: 592px;
+    }
+    45% {
+        transform: scale(0.97);
+        opacity: 0.9;
+        margin-top: -56px;
+        margin-left: 591px;
+    }
+    60% {
+        transform: scale(1);
+        opacity: 1;
+        margin-top: -55px;
+        margin-left: 590px;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        margin-top: -55px;
+        margin-left: 590px;
+    }
+}
+
+/* Configuração das 3 crianças */
+.trioCriancas{
+    display: flex;
+}
+.crianca1{
+    position: relative;
+    width: 45vw;
+    height: 40vh;
+    margin: -250px 0px 0px 0px;
+}
+.crianca2{
+    position: relative;
+    width: 50vw;
+    height: 45vh;
+    margin: -40px 0px 0px 70px;
+}
+.crianca3{
+    position: relative;
+    width: 50vw;
+    height: 60vh;
+    margin: -380px 0px 0px 20px;
+}

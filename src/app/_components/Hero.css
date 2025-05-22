@@ -1,209 +1,270 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lobster&family=Sixtyfour+Convergence&family=Syncopate:wght@400;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jersey+20&family=Lobster&family=Sixtyfour+Convergence&family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jersey+20&display=swap');
 
 * {
     margin: 0;
-    top: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 .hero_body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background-color: #705CE1;
+    color: #ffffff;
+    padding: 1rem;
     position: relative;
-    color: #fff;
     overflow: hidden;
-}
-
-/* Configurações da guia superior */
-ul {
     display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    list-style-type: none;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-}
-ul li {
-    margin-right: 50px;
-    /* gap: 10px; */
-}
-ul li:last-child {
-    margin-right: 0;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+    width: 100%;
 }
 
-/* Configurações da logo */
-.logo{
+.logo {
+    width: 60px;
+    height: 60px;
     position: relative;
-    width: 120px;
-    height: 120px;
+    min-width: 60px;
+    order: 1;
 }
 
-/* Configurações da barra de pesquisa */
 form {
-    display: flex;
-    background-color: #705ce1;
-    color: white;
     position: relative;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    order: 3;
+    margin-top: 1rem;
 }
+
 .input {
-    height: 50px;
-    width: 600px;
-    padding-left: 20px;
-    padding-right: 30px;
+    width: 100%;
+    height: 45px;
+    padding: 0 45px 0 15px;
     border-radius: 36px;
-    color: #fff;
-    opacity: 0.9;
-    border: 1px solid #fff;
-    background-color: #705CE1;
-    outline: none;
+    color: #ffffff;
+    border: 2px solid #ffc400;
+    background-color: #ffffff;
+    font-size: 0.9rem;
 }
-input::placeholder {
-    color: #fff;
-    padding-left: 2px;
-    padding-top: 10px;
-    font-size: 20px;
-}
+
 .search {
     position: absolute;
-    font-size: 23px;
-    top: 12px;
-    left: 560px;
-    opacity: 1;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
 }
 
-/* Configurações de espaço entre os ultimos 3 elementos */
 .navr {
     display: flex;
-    align-items: center;
-    list-style-type: none;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
+    gap: 0.8rem;
     font-family: 'Instrument Sans';
-    font-size: 25px;
-    gap: 160px;
+    font-size: 0.9rem;
+    align-items: center;
+    order: 2;
+    list-style: none;
 }
 
-/* Configurações do seletor de idiomas */
 .seletor_ling {
     background-image: url("data:image/svg+xml,%3Csvg fill='%23ffffff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right center;
-    background-color: #705ce1;
+    background-color: rgb(98, 0, 255);
     color: white;
-    border: none;
-    border-radius: 5px;
+    border: blueviolet;
+    border-radius: 20%;
     padding-right: 20px;
-    appearance: none;
-    font-size: 20px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-size: 20px;
-    font-family: 'Instrument Sans' !important;
+    font-size: 0.9rem;
+    cursor: pointer;
     outline: none;
 }
-.seletor_ling::-ms-expand {
+
+.text-aprest {
+    width: 100%;
+    font-size: clamp(1.5rem, 6vw, 3rem);
+    padding: 1.5rem 0 0;
+    font-family: 'Instrument Sans';
+    text-align: center;
+    line-height: 1.2;
+}
+
+.text-logo {
+    font-size: clamp(3rem, 15vw, 8rem);
+    text-align: center;
+    color: #FFD351;
+    font-family: 'Jersey 20';
+    padding: 0.5rem 0 1.5rem;
+    line-height: 0.9;
+}
+
+.trioCriancas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    min-height: 250px;
+    margin-top: 2rem;
+}
+
+.crianca1, .crianca2, .crianca3 {
+    position: absolute;
+    object-fit: contain;
+}
+
+.crianca1 {
+    width: 35%;
+    height: 100%;
+    left: 5%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.crianca2 {
+    width: 40%;
+    height: 120%;
+    margin-left: 15rem;
+    bottom: 0;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+
+.crianca3 {
+    width: 35%;
+    height: 120%;
+    right: 5%;
+    bottom: 0;
+    z-index: 3;
+}
+
+.mousePosition {
     display: none;
 }
 
-/* Configurações de texto */
-.text-aprest {
-    width: 35vw;
-    font-size: 43px;
-    font-family: 'Instrument Sans'!important;
-    padding: 10px 10px 0px 90px;
-}
-h2 {
-    font-family: 'Instrument Sans';
-}
-.text-logo {
-    font-size: 160px;
-    padding: 0px 10px 10px 530px;
-}
-h1 {
-    font-family: 'Jersey 20';
-    color: #FFD351;
-}
-
-/* Conficurações do mouse */
-.mousePosition {
-    position: relative;
-    width: 120px;
-    height: 120px;
-    margin: -110px 1px 1px 1180px;
-    animation: click 3s ease-in-out infinite;
-    animation-delay: 2s;
-}
-.mouseImag {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    animation: click 3s ease-in-out infinite;
-    animation-delay: 2s;
-}
-@keyframes click {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-        margin-top: -55px;
-        margin-left: 590px;
+@media (min-width: 768px) {
+    .hero_body {
+        padding: 1.5rem;
     }
-    15% {
-        transform: scale(0.97);
-        opacity: 0.9;
-        margin-top: -56px;
-        margin-left: 591px;
+    
+    nav ul {
+        flex-wrap: nowrap;
+        gap: 1.5rem;
     }
-    30% {
-        transform: scale(0.95);
-        opacity: 0.9;
-        margin-top: -57px;
-        margin-left: 592px;
+    
+    .logo {
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+        order: 1;
     }
-    45% {
-        transform: scale(0.97);
-        opacity: 0.9;
-        margin-top: -56px;
-        margin-left: 591px;
+    
+    form {
+        order: 2;
+        margin-top: 0;
+        flex: 1;
     }
-    60% {
-        transform: scale(1);
-        opacity: 1;
-        margin-top: -55px;
-        margin-left: 590px;
+    
+    .navr {
+        order: 3;
+        gap: 1.2rem;
+        font-size: 1rem;
     }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-        margin-top: -55px;
-        margin-left: 590px;
+    
+    .trioCriancas {
+        height: 45vh;
+        min-height: 300px;
+    }
+    
+    .mousePosition {
+        display: block;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 45%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        animation: click 3s ease-in-out infinite;
+        z-index: 4;
+    }
+    
+    @keyframes click {
+        0%, 100% { transform: translate(-50%, -50%) scale(1); }
+        50% { transform: translate(-50%, -50%) scale(1.1); }
     }
 }
 
-/* Configuração das 3 crianças */
-.trioCriancas{
-    display: flex;
+@media (min-width: 1024px) {
+    .hero_body {
+        padding: 2rem 4rem;
+    }
+    
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .input {
+        height: 50px;
+        font-size: 1rem;
+    }
+    
+    .navr {
+        gap: 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .text-aprest {
+        text-align: left;
+        padding-left: 5%;
+        width: 50%;
+        margin-top: 2rem;
+    }
+    
+    .text-logo {
+        text-align: right;
+        padding-right: 10%;
+    }
+    
+    .trioCriancas {
+        height: 55vh;
+        min-height: 400px;
+        margin-top: 3rem;
+    }
+    
+    .crianca1 {
+        width: 25%;
+        left: 10%;
+    }
+    
+    .crianca2 {
+        width: 30%;
+        left: 35%;
+    }
+    
+    .crianca3 {
+        width: 25%;
+        right: 10%;
+    }
 }
-.crianca1{
-    position: relative;
-    width: 45vw;
-    height: 40vh;
-    margin: -250px 0px 0px 0px;
-}
-.crianca2{
-    position: relative;
-    width: 50vw;
-    height: 45vh;
-    margin: -40px 0px 0px 70px;
-}
-.crianca3{
-    position: relative;
-    width: 50vw;
-    height: 60vh;
-    margin: -380px 0px 0px 20px;
+
+@media (min-width: 1440px) {
+    .trioCriancas {
+        height: 60vh;
+        max-height: 600px;
+    }
+    
+    .text-aprest {
+        font-size: 3.5rem;
+    }
+    
+    .text-logo {
+        font-size: 10rem;
+    }
 }
