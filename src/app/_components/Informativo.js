@@ -25,7 +25,7 @@ export function Inform() {
             <h1 className='mainTitle'>Descubra como a Gamefic funciona</h1>
 
             <div className='contentWrapper'>
-                {/* Coluna Esquerda *
+                {/* Coluna Esquerda */}
                 <div className='featuresColumn'>
                     <FeatureCard
                         icon="bi bi-puzzle"
