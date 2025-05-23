@@ -1,39 +1,86 @@
+'use client';
+
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 import '../_components/Hero.css';
 
+const translations = {
+    pt: {
+        subtitle: "Aprender nunca foi tão divertido",
+        title: "GAMEFIC",
+        login: "Entrar",
+        signup: "Inscrever-se",
+        placeholder: "Pesquisar"
+    },
+    es: {
+        subtitle: "Aprender nunca fue tan divertido",
+        title: "GAMEFIC",
+        login: "Iniciar sesión",
+        signup: "Regístrate",
+        placeholder: "Buscar"
+    },
+    en: {
+        subtitle: "Learning has never been so fun",
+        title: "GAMEFIC",
+        login: "Login",
+        signup: "Sign Up",
+        placeholder: "Search"
+    }
+};
+
 export function Hero() {
+    const [language, setLanguage] = useState('pt');
+
+    // Carregar idioma salvo no localStorage
+    useEffect(() => {
+        const storedLang = localStorage.getItem('language');
+        if (storedLang) {
+            setLanguage(storedLang);
+        }
+    }, []);
+
+    // Sempre que mudar o idioma, salva no localStorage
+    useEffect(() => {
+        localStorage.setItem('language', language);
+    }, [language]);
+
+    const t = translations[language];
+
     return (
         <section className='hero_body'>
             <nav>
                 <ul>
-                        <div className='logo'>
-                            <Image
-                                src="/logoGamefic.png"
-                                alt='Logo'
-                                fill
-                                style={{ objectFit: 'contain' }}
-                                priority
-                            />
+                    <div className='logo'>
+                        <Image
+                            src="/logoGamefic.png"
+                            alt='Logo'
+                            fill
+                            style={{ objectFit: 'contain' }}
+                            priority
+                        />
+                    </div>
+
+                    <form>
+                        <input
+                            className='input'
+                            type="text"
+                            name="input"
+                            placeholder={t.placeholder}
+                        />
+                        <div className='search'>
+                            <i className="bi bi-search"></i>
                         </div>
-
-
-                        <form>
-                            <input
-                                className='input'
-                                type="text"
-                                name="input"
-                                placeholder="Pesquisar"
-                            />
-                            <div className='search'>
-                                <i className="bi bi-search"></i>
-                            </div>
-                        </form>
+                    </form>
 
                     <div className='navr'>
-                        <li>Entrar</li>
-                        <li>Inscrever-se</li>
+                        <li>{t.login}</li>
+                        <li>{t.signup}</li>
                         <li>
-                            <select className='seletor_ling'>
+                            <select
+                                className='seletor_ling'
+                                value={language}
+                                onChange={(e) => setLanguage(e.target.value)}
+                            >
                                 <option value="pt">Português (PT-BR)</option>
                                 <option value="es">Español (Latam)</option>
                                 <option value="en">English (US)</option>
@@ -45,11 +92,11 @@ export function Hero() {
 
             <div>
                 <div className='text-aprest'>
-                    <h2>Aprender nunca foi tão divertido</h2>
+                    <h2>{t.subtitle}</h2>
                 </div>
 
                 <div className='text-logo'>
-                    <h1>GAMEFIC</h1>
+                    <h1>{t.title}</h1>
                 </div>
 
                 <div className='mousePosition'>
