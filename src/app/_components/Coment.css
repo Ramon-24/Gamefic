@@ -101,22 +101,22 @@
     z-index: 2;
     width: 90%;
     max-width: 600px;
-    padding-left: 5rem;
+    padding-left: 3.5rem;
 }
 
 .page_inform_text {
     color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .text_title {
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-size: clamp(1rem, 4vw, 2.5rem);
     font-family: 'Instrument Sans', sans-serif;
     margin-bottom: 1rem;
 }
 
 .text_paragrafo {
-    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     font-family: 'Instrument Sans', sans-serif;
     line-height: 1.6;
 }
