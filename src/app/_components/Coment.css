@@ -110,13 +110,13 @@
 }
 
 .text_title {
-    font-size: clamp(1rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
     font-family: 'Instrument Sans', sans-serif;
     margin-bottom: 1rem;
 }
 
 .text_paragrafo {
-    font-size: clamp(1rem, 2vw, 1.3rem);
+    font-size: clamp(1.2rem, 2vw, 1.3rem);
     font-family: 'Instrument Sans', sans-serif;
     line-height: 1.6;
 }
