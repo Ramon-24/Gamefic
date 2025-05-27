@@ -26,7 +26,7 @@ nav ul {
     padding: 1rem 0;
     justify-content: space-around;
     width: 100%; */
-    
+
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -66,18 +66,19 @@ form {
     /* margin-top: -120px; */
     width: 60%;
     height: 45px;
-    
+
     border-radius: 36px;
     padding: 0 45px 0 15px;
     color: #fff;
     opacity: 0.9;
-    
+
     border: 1px solid #705CE1;
     background-color: #ffffff;
     outline: none;
     /* border: 1px solid #fff; */
     /* background-color: #705CE1; */
 }
+
 input::placeholder {
     color: #705CE1;
 }
@@ -88,7 +89,7 @@ input::placeholder {
     left: 50px;
     font-size: 1rem; */
     /* font-size: 230px; */
-    
+
     color: #705CE1;
     transform: translateY(-50%);
     position: absolute;
@@ -108,7 +109,7 @@ input::placeholder {
     justify-content: space-around; */
     /* font-size: 25px; */
     /* gap: 0.8rem; */
-    
+
     /* transform: translateY(-35px); */
     gap: 60px;
     font-size: 1.0rem;
@@ -132,7 +133,7 @@ input::placeholder {
     padding-right: 20px;
     background-size: 20px;
     outline: none; */
-    
+
     background-repeat: no-repeat;
     background-position: right center;
     background-color: #705ce1;
@@ -149,6 +150,7 @@ input::placeholder {
     cursor: pointer;
     outline: none;
 }
+
 .seletor_ling::-ms-expand {
     display: none;
 }
@@ -185,7 +187,9 @@ input::placeholder {
     margin-top: 2rem;
 }
 
-.crianca1, .crianca2, .crianca3 {
+.crianca1,
+.crianca2,
+.crianca3 {
     position: absolute;
     object-fit: contain;
 }
@@ -196,12 +200,12 @@ input::placeholder {
     left: 5%;
     bottom: 0;
     */
-    
+
     position: relative;
     width: 45vw;
     height: 40vh;
     margin: -290px 0px 0px 0px;
-    z-index: 1; 
+    z-index: 1;
 }
 
 .crianca2 {
@@ -210,7 +214,7 @@ input::placeholder {
     margin-left: 15rem;
     bottom: 0;
     transform: translateX(-50%); */
-    
+
     position: relative;
     width: 50vw;
     height: 45vh;
@@ -224,7 +228,7 @@ input::placeholder {
     right: 5%;
     bottom: 0;
     */
-    
+
     position: relative;
     width: 50vw;
     height: 60vh;
@@ -241,6 +245,7 @@ input::placeholder {
     animation: click 3s ease-in-out infinite;
     animation-delay: 2s;
 }
+
 .mouseImag {
     object-fit: cover;
     width: 100%;
@@ -248,6 +253,7 @@ input::placeholder {
     animation: click 3s ease-in-out infinite;
     animation-delay: 2s;
 }
+
 @keyframes click {
     0% {
         transform: scale(1);
@@ -255,30 +261,35 @@ input::placeholder {
         margin-top: -130px;
         margin-left: 1120px;
     }
+
     15% {
         transform: scale(0.97);
         opacity: 0.9;
         margin-top: -131px;
         margin-left: 1121px;
     }
+
     30% {
         transform: scale(0.95);
         opacity: 0.8;
         margin-top: -132px;
         margin-left: 1122px;
     }
+
     45% {
         transform: scale(0.97);
         opacity: 0.8;
         margin-top: -131px;
         margin-left: 1121px;
     }
+
     60% {
         transform: scale(1);
         opacity: 1;
         margin-top: -130px;
         margin-left: 1120px;
     }
+
     100% {
         transform: scale(1);
         opacity: 1;
@@ -288,124 +299,290 @@ input::placeholder {
 }
 
 
-/* 
+
 @media (min-width: 768px) {
-    .hero_body {
-        padding: 1.5rem;
-    }
-    
-    nav ul {
-        flex-wrap: nowrap;
-        gap: 1.5rem;
-    }
-    
+
+
     .logo {
-        width: 80px;
-        height: 80px;
-        min-width: 80px;
-        order: 1;
+        width: 150px;
     }
-    
+
+    .hero_body {
+        width: 100%;
+        height: 90%;
+    }
+
     form {
-        order: 2;
-        margin-top: 0;
-        flex: 1;
+        width: 700px;
+        margin-right: -20px;
     }
-    
+
+    .search {
+        right: 150px;
+        width: 70px;
+    }
+
     .navr {
-        order: 3;
-        gap: 1.2rem;
+        transform: translateX(-100px);
+        width: 30vw;
+        gap: 2rem;
         font-size: 1rem;
     }
-    
-    .trioCriancas {
+
+    .text-aprest {
+        text-align: left;
+        padding-left: 5%;
+        width: 80%;
+        margin-top: -3rem;
+        font-size: 35px;
+    }
+
+    .text-logo {
+        text-align: right;
+        padding-right: 200px;
+        font-size: 100px;
+    }
+
+    /* .trioCriancas {
         height: 45vh;
         min-height: 300px;
+    } */
+
+    .crianca1 {
+        width: 250px;
+        height: 300px;
+        left: 10%;
+        transform: translateX(-200px) translateY(170px)
+    }
+
+    .crianca2 {
+        display: none;
+    }
+
+    .crianca3 {
+        width: 30%;
+        height: 140%;
+        transform: translateX(140px) translateY(-40px)
     }
     
     .mousePosition {
-        display: block;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        top: 45%;
-        left: 85%;
-        transform: translate(-50%, -50%);
-        animation: click 3s ease-in-out infinite;
-        z-index: 4;
+        margin: -130px 1px 1px 400px;
     }
-    
+
     @keyframes click {
-        0%, 100% { transform: translate(-50%, -50%) scale(1); }
-        50% { transform: translate(-50%, -50%) scale(1.1); }
+        0% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -130px;
+            margin-left: 400px;
+        }
+
+        15% {
+            transform: scale(0.97);
+            opacity: 0.9;
+            margin-top: -131px;
+            margin-left: 401px;
+        }
+
+        30% {
+            transform: scale(0.95);
+            opacity: 0.8;
+            margin-top: -132px;
+            margin-left: 402px;
+        }
+
+        45% {
+            transform: scale(0.97);
+            opacity: 0.8;
+            margin-top: -131px;
+            margin-left: 401px;
+        }
+
+        60% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -130px;
+            margin-left: 400px;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -130px;
+            margin-left: 400px;
+        }
     }
 }
 
 @media (min-width: 1024px) {
     .hero_body {
-        padding: 2rem 4rem;
+        width: 100%;
+        height: 100vh;
     }
-    
-    .logo {
-        width: 100px;
-        height: 100px;
+
+    .search {
+        right: 200px;
     }
-    
-    .input {
-        height: 50px;
-        font-size: 1rem;
-    }
-    
+
     .navr {
-        gap: 1.5rem;
-        font-size: 1.1rem;
+        width: 90vw;
     }
-    
+
+    .mousePosition {
+        margin: -140px 1px 1px 900px;
+    }
+
     .text-aprest {
         text-align: left;
         padding-left: 5%;
-        width: 50%;
-        margin-top: 2rem;
+        width: 80%;
+        margin-top: -3rem;
+        font-size: 40px;
     }
-    
+
     .text-logo {
-        text-align: right;
-        padding-right: 10%;
+        padding-right: 200px;
+        font-size: 140px;
     }
-    
-    .trioCriancas {
-        height: 55vh;
-        min-height: 400px;
-        margin-top: 3rem;
-    }
-    
+
     .crianca1 {
         width: 25%;
         left: 10%;
+        transform: translateX(-200px) translateY(170px)
     }
-    
+
     .crianca2 {
-        width: 30%;
-        left: 35%;
+        display: none;
     }
-    
+
     .crianca3 {
-        width: 25%;
-        right: 10%;
+        width: 40%;
+        height: 150%;
+        transform: translateX(219px) translateY(-50px)
     }
+
+    .mousePosition {
+        margin: -140px 1px 1px 550px;
+    }
+
+    @keyframes click {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -140px;
+            margin-left: 550px;
+        }
+
+        15% {
+            transform: scale(0.97);
+            opacity: 0.9;
+            margin-top: -141px;
+            margin-left: 551px;
+        }
+
+        30% {
+            transform: scale(0.95);
+            opacity: 0.8;
+            margin-top: -142px;
+            margin-left: 552px;
+        }
+
+        45% {
+            transform: scale(0.97);
+            opacity: 0.8;
+            margin-top: -141px;
+            margin-left: 551px;
+        }
+
+        60% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -140px;
+            margin-left: 550px;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -140px;
+            margin-left: 550px;
+        }
+    }
+
 }
 
 @media (min-width: 1440px) {
+    .hero_body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .search {
+        right: 350px;
+    }
+
+    .navr {
+        width: 55vw;
+    }
+
+    .mousePosition {
+        margin: -140px 1px 1px 900px;
+    }
+
+    @keyframes click {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -140px;
+            margin-left: 900px;
+        }
+
+        15% {
+            transform: scale(0.97);
+            opacity: 0.9;
+            margin-top: -141px;
+            margin-left: 901px;
+        }
+
+        30% {
+            transform: scale(0.95);
+            opacity: 0.8;
+            margin-top: -142px;
+            margin-left: 902px;
+        }
+
+        45% {
+            transform: scale(0.97);
+            opacity: 0.8;
+            margin-top: -141px;
+            margin-left: 901px;
+        }
+
+        60% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -140px;
+            margin-left: 900px;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: -141px;
+            margin-left: 901px;
+        }
+    }
+
     .trioCriancas {
         height: 60vh;
         max-height: 600px;
     }
-    
+
     .text-aprest {
         font-size: 3.5rem;
     }
-    
+
     .text-logo {
         font-size: 10rem;
     }
-} */
+}
