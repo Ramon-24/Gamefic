@@ -100,7 +100,7 @@ export function Inform() {
                             controls
                             className='modalVideo'
                         >
-                            <source src="/public/bob-esponja-uma-hora-depois.mp4" type="video/mp4" />
+                            <source src="/public/gamefic-intro.mp4" type="video/mp4" />
                             Seu navegador não suporta vídeos. 
                         </video>
                     </div>

@@ -48,14 +48,15 @@ export function Hero() {
 
     return (
         <section className='hero_body'>
-            <nav>
+            <nav className='nav-top'>
                 <ul>
                     <div className='logo'>
                         <Image
                             src="/logoGamefic.png"
                             alt='Logo'
                             fill
-                            style={{ objectFit: 'contain' }}
+                            style={{ 
+                                objectFit: 'contain'}}
                             priority
                         />
                     </div>
