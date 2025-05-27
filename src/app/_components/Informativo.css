@@ -26,23 +26,28 @@
 
 /* Colunas */
 .featuresColumn {
-    width: 100%;
+    width: 50vw;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding: 100px 0px 0px 0px;
 }
 
 .featureCard {
-    background: white;
+    width: 22vw;
+    height: 21vh;
+    background: rgb(255, 255, 255);
     border-radius: 12px;
-    padding: 1.5rem;
+    padding: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    font-size: 22px;
 }
 
 .featureCard:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px #705ce1;
 }
 
 .iconCircle {

@@ -43,33 +43,31 @@ export function Coment() {
             </section>
 
             {/* Seção Informativa */}
-            <section className='inform'>
-                <div className='fundo_inform'>
-                    <div className='caderno_wrapper'>
-                        <div className='caderno'>
-                            <Image 
-                                src="/caderno.png" 
-                                alt="Caderno" 
-                                fill
-                                className='caderno_imagem'
-                            />
+            <section className="inform">
+                <div className="fundo_inform">
+                    <div className="caderno_wrapper">
+
+                        <div className="caderno">
+                            <img src="/caderno.png" alt="Caderno" className="caderno_imagem" />
                         </div>
 
-                        <div className='page_inform'>
-                            <div className='page_inform_text'>
-                                <h2 className='text_title'>
+                        <div className="pageInform">
+                            <div className="pageInform-text">
+
+                                <h2 className="text-title">
                                     Transforme o aprendizado em diversão!
                                 </h2>
-                                <p className='text_paragrafo'>
+
+                                <p className="text-paragrafo">
                                     Com a Gamefic, seu filho aprende enquanto se diverte. Nossa plataforma de gamificação transforma matérias escolares em desafios empolgantes, mantendo os alunos motivados e engajados.
                                 </p>
                             </div>
 
-                            <button className='page_inform_button'>
-                                <span className='text_button'>
+                            <div className="pageInform-button">
+                                <h4 className="text-button">
                                     Iniciar com site
-                                </span>
-                            </button>
+                                </h4>
+                            </div>
                         </div>
 
                         <div className='menina'>

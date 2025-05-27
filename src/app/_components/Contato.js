@@ -21,7 +21,7 @@ export function Contato() {
                 </div>
 
                 <div className='column'>
-                    <ul className='menuList'>
+                    <ul className='menuListe'>
                         <li className='boldItem'>Crianças e família</li>
                         <li>Guia para a família</li>
                         <li>Compartilhamento em família</li>
