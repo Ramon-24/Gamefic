@@ -1,1 +1,2 @@
+public/public/gamefic-intro.mp4 filter=lfs diff=lfs merge=lfs -text
 public/public/*.mp4 filter=lfs diff=lfs merge=lfs -text
