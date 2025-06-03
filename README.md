@@ -16,7 +16,7 @@
 
 <p align="center">
   <video width="600" controls>
-    <source src="/public/vídeo do jogo.mp4" type="video/mp4">
+    <source src="/public/public/gamevideo.mp4" type="video/mp4">
     Seu navegador não suporta a reprodução de vídeos.
   </video>
 </p>
@@ -79,8 +79,8 @@ O sistema foi inteiramente pensado para ser responsivo e adaptável, contando co
 │   ├── Comentario.js        # Simulação de comentários
 │   └── Contato.js           # Formulário de contato
 ├── public/
-│   ├── logo Gamefic.png     # Logotipo
-│   └── vídeo do jogo.mp4    # Vídeo demonstrativo
+│   ├── logoGamefic.png     # Logotipo
+│   └── gamevideo.mp4    # Vídeo demonstrativo
 └── package.json             # Dependências do projeto
 ```
 
@@ -121,10 +121,10 @@ Acesse: [http://localhost:3000](http://localhost:3000)
   <a href="https://github.com/Ramon-24">
     <img src="https://img.shields.io/badge/GitHub-1B67A4?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://www.linkedin.com/in/seu-perfil">
+  <a href="https://www.linkedin.com/in/ramonbrandao24">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://seuportfólio.com">
+  <a href="https://Ramon_brandao.vercel.app">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-1B67A4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
 </p>
