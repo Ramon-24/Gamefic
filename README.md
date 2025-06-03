@@ -1,7 +1,7 @@
 ---
 
 <p align="center">
-  <img src="/public/logo%20Gamefic.png" alt="Logo Gamefic" width="250"/>
+  <img src="/public/logoGamefic.png" alt="Logo Gamefic" width="250"/>
 </p>
 
 <h2 align="center">
@@ -16,7 +16,7 @@
 
 <p align="center">
   <video width="600" controls>
-    <source src="/public/public/gamevideo.mp4" type="video/mp4">
+    <source src="../public/public/gamevideo.mp4" type="video/mp4">
     Seu navegador não suporta a reprodução de vídeos.
   </video>
 </p>
