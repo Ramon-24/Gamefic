@@ -12,17 +12,6 @@
 
 ---
 
-### 📽 Prévia do Projeto
-
-<p align="center">
-  <video width="600" controls>
-    <source src="../public/public/gamevideo.mp4" type="video/mp4">
-    Seu navegador não suporta a reprodução de vídeos.
-  </video>
-</p>
-
----
-
 ### 📋 Sobre o Projeto
 
 **Gamefic** é uma aplicação web interativa desenvolvida durante o curso técnico em Desenvolvimento de Sistemas. Seu principal objetivo é transformar histórias narrativas em experiências gamificadas, nas quais os usuários tomam decisões e moldam seus próprios caminhos até o fim da história.
