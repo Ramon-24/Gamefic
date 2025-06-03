@@ -43,28 +43,28 @@ O sistema foi inteiramente pensado para ser responsivo e adaptável, contando co
 
 ---
 
-### 🧰 Tecnologias e Ferramentas
+### 🛠 Tecnologias Utilizadas
 
 <div align="center">
+  <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-1B67A4?style=for-the-badge&logo=vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Responsivo-✔️-1B67A4?style=for-the-badge"/>
 </div>
 
-- **Next.js**: Estrutura de rotas, SSR e organização de páginas.
-- **React**: Criação de componentes funcionais reutilizáveis.
-- **CSS3**: Estilização personalizada com foco em responsividade.
+- **Next.js** – estrutura do projeto e renderização eficiente
+- **React** – construção dos componentes reutilizáveis
+- **CSS3** – responsividade e identidade visual do site
 
 ---
 
-### 🧩 Funcionalidades
+### ✨ Funcionalidades
 
-- ✅ Página principal com frase de impacto e chamada à ação
-- ✅ Sessão informativa destacando o propósito e diferenciais
-- ✅ Sessão de comentários simulando feedback de usuários
-- ✅ Formulário de contato estilizado
-- ✅ Layout fluido e responsivo
+- Componente "Hero" com chamadas interativas
+- Sessão "Informativo" para apresentação do objetivo
+- Área "Comentários" simulando engajamento de usuários
+- Formulário de "Contato" estilizado e funcional
+- Layout 100% responsivo e adaptado para todos os tamanhos de tela
 
 ---
 
