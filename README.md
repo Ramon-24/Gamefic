@@ -64,7 +64,6 @@ O sistema foi inteiramente pensado para ser responsivo e adaptável, contando co
 - Sessão "Informativo" para apresentação do objetivo
 - Área "Comentários" simulando engajamento de usuários
 - Formulário de "Contato" estilizado e funcional
-- Layout 100% responsivo e adaptado para todos os tamanhos de tela
 
 ---
 
@@ -111,8 +110,8 @@ Acesse: [http://localhost:3000](http://localhost:3000)
 
 ### 🤝 Colaboração no Projeto
 
-- 💡 **Design**: Parte do layout foi feito por uma colega de classe, e outra parte foi desenvolvida por mim.
-- 🔧 **Implementação**: Desenvolvi toda a estrutura técnica com Next.js, React e CSS, além da responsividade e funcionalidade geral.
+- **Design**: Parte do layout foi feito por uma colega de classe, e outra parte foi desenvolvida por mim.
+- **Implementação**: Desenvolvi toda a estrutura técnica com Next.js, React e CSS, além da responsividade e funcionalidade geral.
 
 ---
 
