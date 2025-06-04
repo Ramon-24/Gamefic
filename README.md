@@ -87,10 +87,10 @@ O sistema foi inteiramente pensado para ser responsivo e adaptável, contando co
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/seu-usuario/gamefic
+$ git clone https://github.com/Ramon-24/Gamefic.git
 
 # Acesse o diretório
-$ cd gamefic
+$ cd Gamefic
 
 # Instale as dependências
 $ npm install
