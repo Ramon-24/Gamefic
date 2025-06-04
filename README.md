@@ -59,18 +59,26 @@ O sistema foi inteiramente pensado para ser responsivo e adaptável, contando co
 ### 📁 Estrutura do Projeto
 
 ```
-📦 gamefic
-├── app/
-│   └── page.js              # Página principal com todos os componentes
-├── components/
-│   ├── Hero.js              # Apresentação e CTA
-│   ├── Informativo.js       # Introdução e contexto
-│   ├── Comentario.js        # Simulação de comentários
-│   └── Contato.js           # Formulário de contato
-├── public/
+📦 gamefic/
+├── public/              # Imagens e arquivos públicos
 │   ├── logoGamefic.png     # Logotipo
-│   └── gamevideo.mp4    # Vídeo demonstrativo
-└── package.json             # Dependências do projeto
+│   └── public/
+│        └── gamevideo.mp4    # Vídeo demonstrativo
+├── src/
+│   ├── components/      # Componentes reutilizáveis (Hero, Informativo, Comentário, Contato)
+│   │   ├── Hero.js     # Apresentação e CTA
+│   │   ├── Informativo.js       # Introdução e contexto
+│   │   ├── Comentario.js        # Simulação de comentários
+│   │   └── Contato.js           # Formulário de contato
+│   ├── app/           # Páginas do Next.js
+│   │   └── page.js     # Página inicial (home)
+│   ├── styles/          # Arquivos CSS do projeto
+│   │   └── globals.css
+│   └── utils/           # Funções auxiliares (opcional)
+├── .gitignore
+├── package.json
+├── README.md
+└── next.config.js
 ```
 
 ---
